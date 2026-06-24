@@ -2,27 +2,6 @@
 
 Implementation of predictive coding networks (PCNs) with continuous and spiking neurons using PyTorch. The project investigates predictive coding inference dynamics with sigmoid, ReLU, and leaky integrate-and-fire (LIF) spiking neurons trained using surrogate-gradient learning.
 
-The work explores:
-- Predictive coding as a biologically inspired alternative to backpropagation
-- Spiking predictive coding networks
-- Effects of membrane reset dynamics
-- Role of iterative inference steps during training
-- Event-driven neural computation for neuromorphic systems
-
----
-
-# Features
-
-- Predictive coding inference dynamics
-- Local prediction-error minimization
-- Sigmoid, ReLU, and spiking LIF neurons
-- Surrogate-gradient learning for spiking networks
-- MNIST and Fashion-MNIST experiments
-- Prediction-error visualizations
-- Accuracy curves
-- Inference-step experiments
-- Activity dynamics visualization and GIF generation
-
 ---
 
 # Installation
@@ -170,8 +149,6 @@ The experiments demonstrate:
 - LIF spiking neurons achieve competitive classification performance
 - Strong membrane reset dynamics destabilize predictive coding inference
 - Increasing inference steps improves learning up to a moderate range
-- Predictive coding benefits from iterative latent-state relaxation
-
 
 ---
 
